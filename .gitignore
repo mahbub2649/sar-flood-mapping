@@ -1,0 +1,11 @@
+.venv/
+data/
+runs/
+__pycache__/
+*.pyc
+.pytest_cache/
+runs_*.log
+models/*.onnx
+.env
+.env.*
+*.part

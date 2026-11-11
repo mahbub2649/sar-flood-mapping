@@ -1,0 +1,13 @@
+{
+  "run": "unet_r34",
+  "threshold": 0.45,
+  "encoder": "resnet34",
+  "input": "VV, VH in dB, see floodseg.data.to_features",
+  "sha256": "f6af24674991332438d66c395b6f65d8d3632e377e05eeecbbbb663b6f7a5c51",
+  "size_mb": 97.7,
+  "parity": {
+    "max_abs_logit_diff": 7.867813110351562e-05,
+    "min_mask_agreement": 1.0
+  },
+  "cpu_ms_per_512_chip": 205.2
+}

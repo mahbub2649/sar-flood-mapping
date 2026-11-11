@@ -1,0 +1,78 @@
+{
+ "epochs": 30,
+ "regions": {
+  "Ghana": {
+   "chips": 53,
+   "unet_iou": 0.44513318094606436,
+   "fixed_iou": 0.37873177256704227,
+   "water_fraction": 0.06287471811794207,
+   "threshold": 0.45
+  },
+  "India": {
+   "chips": 68,
+   "unet_iou": 0.5456253620910511,
+   "fixed_iou": 0.4534105896305774,
+   "water_fraction": 0.12369988393179296,
+   "threshold": 0.4
+  },
+  "Mekong": {
+   "chips": 30,
+   "unet_iou": 0.856346009681969,
+   "fixed_iou": 0.7556085592951594,
+   "water_fraction": 0.2412265495265024,
+   "threshold": 0.4
+  },
+  "Nigeria": {
+   "chips": 18,
+   "unet_iou": 0.7778682455981444,
+   "fixed_iou": 0.5544712909582736,
+   "water_fraction": 0.23562560844149932,
+   "threshold": 0.35
+  },
+  "Pakistan": {
+   "chips": 28,
+   "unet_iou": 0.28008970537275957,
+   "fixed_iou": 0.20133641396637816,
+   "water_fraction": 0.07498462572141919,
+   "threshold": 0.3
+  },
+  "Paraguay": {
+   "chips": 67,
+   "unet_iou": 0.5402681700034547,
+   "fixed_iou": 0.48991667552625984,
+   "water_fraction": 0.08112408489831642,
+   "threshold": 0.45
+  },
+  "Somalia": {
+   "chips": 26,
+   "unet_iou": 0.3425007063900472,
+   "fixed_iou": 0.13953995738460756,
+   "water_fraction": 0.06510291693981364,
+   "threshold": 0.55
+  },
+  "Spain": {
+   "chips": 30,
+   "unet_iou": 0.7122142150584981,
+   "fixed_iou": 0.596608910654931,
+   "water_fraction": 0.13153804924090964,
+   "threshold": 0.35
+  },
+  "Sri-Lanka": {
+   "chips": 42,
+   "unet_iou": 0.616145076241198,
+   "fixed_iou": 0.5678963867129004,
+   "water_fraction": 0.11797452661332469,
+   "threshold": 0.4
+  },
+  "USA": {
+   "chips": 69,
+   "unet_iou": 0.5161910898100225,
+   "fixed_iou": 0.3907983730889648,
+   "water_fraction": 0.045616290876435685,
+   "threshold": 0.5
+  }
+ },
+ "mean_unet_iou": 0.5632381761193209,
+ "mean_fixed_iou": 0.4528318929785094,
+ "regions_where_unet_wins": 10
+}
